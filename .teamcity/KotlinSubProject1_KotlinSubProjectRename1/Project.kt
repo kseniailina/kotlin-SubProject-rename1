@@ -8,11 +8,13 @@ import jetbrains.buildServer.configs.kotlin.v2019_2.Project
 import jetbrains.buildServer.configs.kotlin.v2019_2.projectFeatures.VersionedSettings
 import jetbrains.buildServer.configs.kotlin.v2019_2.projectFeatures.versionedSettings
 
+const val REPOSITORY_NAME = "gmat2-thirdparty-swx-qt-build"
+
 object Project : Project({
     uuid = "693f05f0-1bc4-4a65-b417-5c7ca3d77663"
     id("KotlinSubProject1_KotlinSubProjectRename1")
     parentId("KotlinSubProject1")
-    name = "Kotlin SubProject Rename1"
+    name = REPOSITORY_NAME
 
     vcsRoot(KotlinSubProject1_KotlinSubProjectRename1_HttpsGithubComKseniailinaKotlinSubProjectRename1gitRefsHeadsMaster)
 
