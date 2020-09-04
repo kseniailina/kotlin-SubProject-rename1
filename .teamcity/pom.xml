@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <name>KotlinSubProject1_KotlinSubProjectRename1 Config DSL Script</name>
-  <groupId>KotlinSubProject1_KotlinSubProjectRename1</groupId>
-  <artifactId>KotlinSubProject1_KotlinSubProjectRename1_dsl</artifactId>
+  <name>KotlinSubProject11_KotlinSubProjectRename1 Config DSL Script</name>
+  <groupId>KotlinSubProject11_KotlinSubProjectRename1</groupId>
+  <artifactId>KotlinSubProject11_KotlinSubProjectRename1_dsl</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <parent>
